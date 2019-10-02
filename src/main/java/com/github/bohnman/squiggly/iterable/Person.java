@@ -12,7 +12,7 @@ public class Person {
     this.name = name;
   }
 
-  public Iterable getPets() {
+  public Iterable<String> getPets() {
     return pets;
   }
 
